@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+}
+
+div#header {
+  background-color: rgba(241, 241, 241, 0.562);
+  height: 80px;
+  width: 800px;
+  border-radius: 8px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+span {
+}
