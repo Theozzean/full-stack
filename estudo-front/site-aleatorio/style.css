@@ -12,9 +12,26 @@ header {
 
 #top-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 40%;
+    gap: 5rem;
+}
+
+#other {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#config {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
 }
 
 #bottom-header {
@@ -34,7 +51,7 @@ header {
     padding: 10px 15px;
     border: 2px solid #ccc;
     background-color: #ececec;
-    border-radius: 8px;
+    border-radius: 16px;
     height: 40%;
     display: flex;
     justify-content: space-between;
@@ -43,14 +60,14 @@ header {
 
 #bottom-header input {
     all: unset;
-    height: 100%;
     font-size: 16px;
     color: rgb(8, 8, 8);
-    width: 300px; /* Largura */
+    width: 44rem;
+    height: 4rem;
     transition: border-color 0.3s;
 }
 
-#bottom-header button {
+#pesquisar button {
     all: unset;
     cursor: pointer;
     width: 10%;
@@ -58,6 +75,11 @@ header {
 
 #lupa {
     height: 2rem;
+}
+
+#sacola {
+    all: unset;
+    cursor: pointer;
 }
 
 #carrinho {
