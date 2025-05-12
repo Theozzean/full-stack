@@ -13,3 +13,8 @@
     --text-collor-primary: #313131;
     --text-collor-secondary: #6C6C6C;
 }
+
+body {
+    color: var(--text-collor-secondary);
+    background-color: var(--bg-collor);
+}
