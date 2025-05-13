@@ -28,6 +28,12 @@ header .container {
     font: var(--text-sm);
 }
 
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+}
+
 #info {
     list-style: none;
     display: flex;
