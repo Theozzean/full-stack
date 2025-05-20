@@ -30,6 +30,10 @@
     --text-sm: 14px/140% var(--maven-font);
 }
 
+body {
+    background-color: var(--gray-200);
+}
+
 img {
     width: 100%;
 }

@@ -10,6 +10,7 @@ header {
     position: relative;
     justify-content: end;
     align-items: end;
+    padding-bottom: 56px;
 
     img:nth-child(1) {
         height: 91.27px;
@@ -28,4 +29,31 @@ header {
 #info {
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding-bottom: 80px;
+}
+
+#icons {
+    gap: 16px;
+    figure {
+        padding: 8px 14px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        gap: 8px;
+        background-color: var(--gray-300);
+    }
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+#arrow {
+    justify-content: center;
+    img {
+        height: 32px;
+        width: 32px;
+    }
 }
