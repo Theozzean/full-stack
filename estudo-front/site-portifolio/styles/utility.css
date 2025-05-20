@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-intro {
+    font: var(--h1);
+    color: var(--gray-600);
+}
+
+.subtitle-intro {
+    font: var(--subtitle);
+    color: var(--gray-500)
+}
+
+.text-sm-intro {
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
+
+.red {
+    color: var(--red);
+}

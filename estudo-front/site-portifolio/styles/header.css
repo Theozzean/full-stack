@@ -1,0 +1,31 @@
+header {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+#foto {
+    position: relative;
+    justify-content: end;
+    align-items: end;
+
+    img:nth-child(1) {
+        height: 91.27px;
+        width: 91.27px;
+        border-radius: 50px;
+        padding: 4px;
+        border: solid 2px var(--red)
+    }
+    img:nth-child(2) {
+        height: 32px;
+        width: 32px;
+        position: absolute;
+    }
+}
+
+#info {
+    justify-content: center;
+    align-items: center;
+}

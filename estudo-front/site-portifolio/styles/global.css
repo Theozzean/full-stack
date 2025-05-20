@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--gray-200);
 }
 
 :root {
@@ -23,10 +22,18 @@
     --inconsolata-font: 'Inconsolata', sans-serif;
     --maven-font: 'Maven Pro', sans-serif;
 
-    --title-lg: 700 56px/120% var(--asap-font);
-    --title-md: 700 24px/120% var(--asap-font);
-    --title-sm: 700 16px/120% var(--asap-font);
-    --subtitle: 400 20px/120% var(--inconsolata-font);
-    --text: 400 16px/140% var(--maven-font);
-    --text-sm: 400 14px/140% var(--maven-font);
+    --h1: 600 56px/120% var(--asap-font);
+    --h2: 600 24px/120% var(--asap-font);
+    --h3: 600 16px/120% var(--asap-font);
+    --subtitle: 20px/120% var(--inconsolata-font);
+    --text: 16px/140% var(--maven-font);
+    --text-sm: 14px/140% var(--maven-font);
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, p, span {
+    font: inherit;
 }
