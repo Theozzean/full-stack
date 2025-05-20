@@ -51,6 +51,7 @@ header {
 }
 
 #arrow {
+    padding: 50px;
     justify-content: center;
     img {
         height: 32px;

@@ -6,6 +6,10 @@
     flex-direction: column;
 }
 
+.grid {
+    display: grid;
+}
+
 .flow-row {
     flex-direction: row;
 }
@@ -32,6 +36,10 @@
 
 .h2 {
     font: var(--h2);
+}
+
+.h3 {
+    font: var(--h3);
 }
 
 .subtitle {

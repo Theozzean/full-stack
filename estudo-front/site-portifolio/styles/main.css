@@ -1,0 +1,75 @@
+main {
+    padding-top: 100px;
+    align-items: center;
+}
+
+#title {
+    align-items: center;
+    padding-bottom: 56px;
+}
+
+#sites {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-bottom: 144px;
+
+    figure {
+        padding: 14px 14px;
+        border-radius: 12px;
+        background-color: var(--gray-300);
+    }
+
+    figcaption {
+        h3 {
+            padding: 14px 0 7px 0;
+        }
+        p {
+            padding: 7px 0 14px 0;
+        }
+    }
+
+    img {
+        border-radius: 8px;
+        width: 306px;
+        height: 156px;
+    }
+
+}
+
+#serviços {
+    height: 480px;
+    width: 100%;
+    background-color: var(--gray-100);
+}
+
+#serviços-tittle {
+    align-items: center;
+    padding: 88px 0 56px 0;
+}
+
+#serviços-desc {
+    justify-content: center;
+    gap: 24px;
+
+    figure {
+        height: 155px;
+        width: 280px;
+        padding: 20px;
+        border: solid 2px var(--gray-200);
+        border-radius: 12px;
+    }
+
+    figcaption {
+        h3 {
+            padding: 14px 0 0 0;
+        }
+        p {
+            padding: 7px 0 0 0;
+        }
+    }
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
+}
