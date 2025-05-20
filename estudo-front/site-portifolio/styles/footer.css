@@ -1,0 +1,52 @@
+footer {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    height: 787px;
+}
+
+#contatos-tittle {
+    padding-top: 128px;
+    align-items: center;
+    gap: 15px;
+}
+
+#redes {
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+
+    div {
+        background-color: var(--gray-300);
+        height: 68px;
+        width: 400px;
+        border-radius: 8px;
+        align-items: center;
+    }
+
+    .rede-icon {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .arrow {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 59%;
+    }
+
+    p {
+        position: absolute;
+        left: 42%;
+    }
+}
+
+div:hover {
+    border: solid 2px var(--blue);
+    cursor: pointer;
+}
+

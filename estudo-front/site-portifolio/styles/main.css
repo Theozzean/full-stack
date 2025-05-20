@@ -19,6 +19,10 @@ main {
         background-color: var(--gray-300);
     }
 
+    figure:hover {
+        border: solid 1px var(--gray-400);
+    }
+
     figcaption {
         h3 {
             padding: 14px 0 7px 0;
