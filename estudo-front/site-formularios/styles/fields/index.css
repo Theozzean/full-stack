@@ -62,4 +62,38 @@ input {
         border: 1px solid var(--stroke-default);
         color: var(--text-primary);
     }
+
+    & + small {
+        font: var(--text-sm);
+        color: #78716c;
+        
+        display: inline-block;
+        margin-top: .25rem;
+    }
+
+    &:focus:invalid {
+        border: .125rem solid var(--semantic-error);
+
+    }
+
+    &[required] + .error {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: .25rem;
+
+        font: var(--text-sm);
+        color: var(--semantic-error);
+
+        margin: .25rem;
+
+    }
+
+    &:valid + .error {
+        display: none;
+    }
+
+    &:not(:focus) + .error {
+        display: none;
+    }
 }

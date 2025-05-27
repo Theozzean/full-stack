@@ -29,7 +29,7 @@
 
                         <div class="input-wrapper">
                             <label for="fullname">Nome completo</label>
-                            <input id="fullname" name="fullname" type="text" placeholder="Digite o nome">
+                            <input id="fullname" name="fullname" type="text" placeholder="Digite o nome da criança">
                         </div>
 
                         <div class="input-wrapper">
@@ -95,6 +95,30 @@
                             <div class="input-wrapper flex-1">
                                 <label for="state">Estado</label>
                                 <input type="text" id="state" name="state" value="SP" disabled>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="gardian">
+                        <legend>Informações do responsável</legend>
+
+                        <div class="input-wrapper">
+                            <labbel for="gardian">Nome do Responsável</labbel>
+                            <input type="text" id="gardian" name="gardian" placeholder="Digite o nome do responsável">
+                            <small>Principal responsável legal e contato de emergência</small>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(99) 9 9999-9999">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="mail">Email</label>
+                            <input type="email" id="mail" name="mail" required>
+                            <div class="error">
+                                <img src="assets/Icons/alert-circle.svg" alt="Ícone de alerta">
+                                <span>Insira um e-mail válido</span>
                             </div>
                         </div>
                     </fieldset>
